@@ -1,4 +1,8 @@
-# XeleR : Accelerating XR Prototyping
+# Protocol (Previously XeleR) : Accelerating XR Prototyping
+
+## Overview
+
+This repository is a proof of concept for our product Protocol.
 
 ## Overview
 
@@ -7,6 +11,8 @@ This Unity Editor extension is a core component of the XeleR platform—a Text2X
 For detailed technical documentation of the codebase, please refer to the [documentation.md](./documentation.md) file. This document provides in-depth explanations of the system architecture, implementations, and extension points to help developers understand and contribute to the project.
 
 For detailed rationale documentation of the team's decision making process, please refer to the [rationale.md](./rationale.md) file. This document captures what occurred in the different phases of our development cycle and took the shape of XeleR. 
+
+https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
 
 ## Demo Video
 Demo Video of how to use XeleR to rapidly iterate on your screen. Here you can see how we add a new character onto the kitchen scene.
