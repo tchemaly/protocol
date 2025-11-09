@@ -10,8 +10,6 @@ This Unity Editor extension is a core component of the XeleR platform—a Text2X
 
 For detailed technical documentation of the codebase, please refer to the [documentation.md](./documentation.md) file. This document provides in-depth explanations of the system architecture, implementations, and extension points to help developers understand and contribute to the project.
 
-For detailed rationale documentation of the team's decision making process, please refer to the [rationale.md](./rationale.md) file. This document captures what occurred in the different phases of our development cycle and took the shape of XeleR. 
-
 ## Demo Video
 
 https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
@@ -122,24 +120,14 @@ Below is a high-level diagram of how XeleR’s chatbot fits into your Unity work
 - **Text-to-XR Prototyping:**  
   Transform plain-text descriptions into interactive XR prototypes, making early-stage development faster and more accessible.
 
+- **Agent Mode: Scene Edit Application:**  
+  XeleR can automatically apply changes and edits to the scene. It goes through an approval system similar to how Cursor works. 
+
 - **AI-Powered Debugging & Automation:**  
   Automate debugging and testing processes, reducing manual effort and accelerating iteration cycles.
 
 - **Cross-Platform Compatibility:**  
   Develop once and deploy across multiple XR devices seamlessly, ensuring broad reach and flexibility.
-
-  ---
-
-**Future Plans:**
-
-- **Scene Edit Application:**  
-  Currently, XeleR provides the code to make the changes that we instruct it to make and provides the user with the steps in order to load the script and implement the behavior. However, we want the changes to the scene to be automatically applied and go through an approval system similar to how Cursor works. 
-
-- **Product-Market Fit**  
-  So far, we have been entirely focused on building the Unity extension. Future steps include testing out what a developers think about our extension and getting feedback on its use cases. Through this research, we hope to uncover insights that we can center further functionality and features around.
-
-- **Asset Integration**  
-  We want to work on improving our current architecture to also be able to support importing assets from the Unity source and other sources that the system require essential to edit the scene; this holds immense value in cases where scenes are to be generated from a prompt from scratch. 
 
 ## Sample Scripts
 You can try one of our sample scripts generated using XeleR. The scripts are in Assets>Scripts>Sample Scripts. We currently have DuplicatePlayerOnStart.cs which duplicates the player in the GameScene on start.
