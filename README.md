@@ -12,16 +12,9 @@ For detailed technical documentation of the codebase, please refer to the [docum
 
 For detailed rationale documentation of the team's decision making process, please refer to the [rationale.md](./rationale.md) file. This document captures what occurred in the different phases of our development cycle and took the shape of XeleR. 
 
-https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
-
 ## Demo Video
-Demo Video of how to use XeleR to rapidly iterate on your screen. Here you can see how we add a new character onto the kitchen scene.
 
-Watch a (demo video)[https://www.youtube.com/watch?v=Zdj6ES_ETMg] here:
-
-
-![Main_GIF](https://github.com/user-attachments/assets/82486813-2c68-49d0-b2e5-e86a4c4fca7f)
-
+https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
 
 ## XeleR Interface Explanation
 
