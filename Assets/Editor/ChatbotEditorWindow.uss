@@ -1,0 +1,117 @@
+/* Style the send button */
+Button#sendButton {
+    background-color: rgb(70, 70, 70);
+    height: 24px;                      
+    border-radius: 4px;                
+    min-width: 50px;                   
+    padding-left: 6px;                
+    padding-right: 6px
+    -unity-font-style: normal;
+    font-size: 11px;                   
+    border-width: 0;
+    margin-top: 0;
+    margin-bottom: 6;
+    margin-left: auto;
+}
+
+/* Style the API Keys button */
+Button#apiKeysButton {
+    background-color: rgb(70, 70, 70);
+    height: 24px;
+    border-radius: 4px;
+    min-width: 50px;
+    padding-left: 6px;                
+    padding-right: 6px;
+    -unity-font-style: normal;
+    font-size: 11px;
+    border-width: 0;
+    margin-top: 0;
+    margin-bottom: 6;
+}
+
+/* Style the PopupField itself */
+VisualElement#modelContainer > .unity-popup-field {
+    height: 24px;
+    border-radius: 4px;
+    min-width: 50px;
+    padding-left: 6px;                
+    padding-right: 6px;
+    -unity-font-style: normal;
+    font-size: 11px;
+    border-width: 0;
+    margin-top: 0;
+    margin-bottom: 6;
+}
+
+/* Style the main input area *within* the PopupField */
+VisualElement#modelContainer > .unity-popup-field .unity-base-field__input {
+    background-color: transparent; /* Make the input area background transparent */
+    border-width: 0;               
+    margin: 0;                     
+    color: rgb(200, 200, 200);
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+}
+
+/* Style the query input field (main TextField element) */
+TextField#queryField {
+    min-height: 45px;
+    white-space: normal;
+    -unity-text-align: upper-left;
+}
+
+/* Style the actual input area *within* the TextField */
+TextField#queryField > .unity-base-text-field__input {
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+    border-width: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 4;
+}
+
+/* Style the @ Add context button */
+Button#contextMenuButton {
+    border-width: 1px;
+    border-color: rgb(70, 70, 70);
+    background-color: transparent;
+    height: 24px;
+    border-radius: 4px;
+    min-width: 80px;
+    padding-left: 6px;                
+    padding-right: 6px;
+    -unity-font-style: normal;
+    -unity-text-align: middle-left;   
+    font-size: 11px;
+    margin-top: 4; 
+}
+
+/* Style the Quick Context Container to look like a button */
+VisualElement#quickContextContainer {
+    flex-direction: row;
+    align-items: center;
+    height: 24px;                     
+    background-color: transparent;
+    margin-right: 4px;
+    border-width: 0;
+    margin-top: 5;
+    margin-bottom: 0;
+}
+
+/* Style the Quick Context Label *inside* the container */
+Label#quickContextLabel {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 11px;           
+    -unity-font-style: normal;
+}
+
+/* Style the main input area container to group all inputs */
+VisualElement#mainInputAreaContainer {
+    border-width: 0;              
+    background-color: rgb(45, 45, 45);
+    border-radius: 6px;           
+    padding: 6px;                 
+    margin-top: 5px;              
+    margin-bottom: 5px;          
+}
