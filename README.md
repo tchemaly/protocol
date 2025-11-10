@@ -11,8 +11,7 @@ This Unity Editor extension is a Text2XR solution designed to transform the XR a
 For detailed technical documentation of the codebase, please refer to the [documentation.md](./documentation.md) file. This document provides in-depth explanations of the system architecture, implementations, and extension points to help developers understand and contribute to the project.
 
 ## Demo Video
-
-https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
+[![Watch the demo](https://img.youtube.com/vi/L5gbajXsPwI/hqdefault.jpg)](https://youtu.be/L5gbajXsPwI "Watch the demo on YouTube")
 
 ## Interface Explanation
 
