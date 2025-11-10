@@ -12,7 +12,7 @@ For detailed technical documentation of the codebase, please refer to the [docum
 
 ## Demo Video
 
-Click here to see video: [https://drive.google.com/file/d/1Voz85Bgz9sh5E2oR9m_lUzZSH-g5TnmV/view?usp=share_link](https://www.youtube.com/watch?v=L5gbajXsPwI)
+Click here to see [video](https://www.youtube.com/watch?v=L5gbajXsPwI).
 [![Watch the demo](https://img.youtube.com/vi/L5gbajXsPwI/hqdefault.jpg)](https://youtu.be/L5gbajXsPwI "Watch the demo on YouTube")
 
 ## Interface Explanation
