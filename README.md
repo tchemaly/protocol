@@ -1,12 +1,12 @@
-# Protocol (Previously XeleR) : Accelerating XR Prototyping
+# Protocol (Previously XeleR) : Agentic IDE designed for XR roboticists
+
+## Important
+
+This repository is a proof of concept for our product Protocol. It demonstrates the first version of our prototype which is a Unity AI copilot developed for gaming and XR developers.
 
 ## Overview
 
-This repository is a proof of concept for our product Protocol.
-
-## Overview
-
-This Unity Editor extension is a core component of the XeleR platform—a Text2XR solution designed to transform the XR app development ecosystem. XeleR aims to provide rapid, AI-assisted XR prototyping that lowers development barriers, accelerates iteration cycles, and ensures cross-platform compatibility. This project delivers a real-time chatbot window integrated into the Unity Editor, enabling developers to receive streaming AI responses, automated code suggestions, scene analysis, and file browsing capabilities.
+This Unity Editor extension is a Text2XR solution designed to transform the XR app development ecosystem. Protocol (previously XeleR) aims to provide rapid, AI-assisted XR prototyping that lowers development barriers, accelerates iteration cycles, and ensures cross-platform compatibility. This project delivers a real-time chatbot window integrated into the Unity Editor, enabling developers to receive streaming AI responses, automated code suggestions, scene analysis, and file browsing capabilities.
 
 For detailed technical documentation of the codebase, please refer to the [documentation.md](./documentation.md) file. This document provides in-depth explanations of the system architecture, implementations, and extension points to help developers understand and contribute to the project.
 
@@ -14,7 +14,7 @@ For detailed technical documentation of the codebase, please refer to the [docum
 
 https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
 
-## XeleR Interface Explanation
+## Interface Explanation
 
 **Context & Scene Analysis:**
 
@@ -39,16 +39,16 @@ https://github.com/user-attachments/assets/bb95c530-e651-458b-8472-399034f92120
     - This is ideal for iterative development, where frequent updates are made without reconfiguring context each time.
 
 
-## XeleR Framework
+## Framework
 
-Below is a high-level diagram of how XeleR’s chatbot fits into your Unity workflow:
+Below is a high-level diagram of how Protocol (previously XeleR)’s chatbot fits into your Unity workflow:
 
 ![XeleR Flow Diagram](./frameWork.png)
 
 1. **Open Unity & Load Scene**  
    You begin by opening your Unity project and loading the desired scene.
-2. **Open XeleR Chat**  
-   Launch the XeleR Chat window (docked in the Editor). The system analyzes your current scene and is ready to provide AI-driven assistance.
+2. **Open Chat**  
+   Launch the Chat window (docked in the Editor). The system analyzes your current scene and is ready to provide AI-driven assistance.
 3. **Scene Understanding**  
    - Use the `@Context` button or scene analysis features to include your scene’s scripts and assets in the AI’s context.
    - The AI acknowledges the scene context and can answer questions or confirm understanding before code generation.
@@ -78,10 +78,10 @@ Below is a high-level diagram of how XeleR’s chatbot fits into your Unity work
 1. **Add the Script Files**  
    - Clone or download this repository.  
    - To run this project: Open Unity Hub and add this repository as a project with Unity version 2022.3.11f1.
-   - To use XeleR in your existing project: Place the script files into an `Editor` folder within your Unity project. Unity will automatically compile them as part of its editor extension workflow.
+   - To use Protocol in your existing project: Place the script files into an `Editor` folder within your Unity project. Unity will automatically compile them as part of its editor extension workflow.
 
 2. **Configure API Keys**  
-   - In the Unity menu, go to **Window → Chatbox** to open the XeleR Chat window.  
+   - In the Unity menu, go to **Window → Chatbox** to open the Chat window.  
    - Click the **API Settings** button to enter your OpenAI and/or Claude API keys.  
    - These keys are securely stored using Unity’s `EditorPrefs`.
 
@@ -121,14 +121,11 @@ Below is a high-level diagram of how XeleR’s chatbot fits into your Unity work
   Transform plain-text descriptions into interactive XR prototypes, making early-stage development faster and more accessible.
 
 - **Agent Mode: Scene Edit Application:**  
-  XeleR can automatically apply changes and edits to the scene. It goes through an approval system similar to how Cursor works. 
+  Protocol (previously XeleR) can automatically apply changes and edits to the scene. It goes through an approval system similar to how Cursor works. 
 
 - **AI-Powered Debugging & Automation:**  
   Automate debugging and testing processes, reducing manual effort and accelerating iteration cycles.
 
 - **Cross-Platform Compatibility:**  
   Develop once and deploy across multiple XR devices seamlessly, ensuring broad reach and flexibility.
-
-## Sample Scripts
-You can try one of our sample scripts generated using XeleR. The scripts are in Assets>Scripts>Sample Scripts. We currently have DuplicatePlayerOnStart.cs which duplicates the player in the GameScene on start.
 
